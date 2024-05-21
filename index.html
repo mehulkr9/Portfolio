@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mehul Kumar</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/889fbc2e63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted poster="./image/bglight3.png">
+        <source src="./image/newbg2.mp4 " type="video/mp4">
+      </video>
+      
+    <div class="navbar">
+        <div class="nvb">
+    <nav class="navbar-nav">
+        <a href=""><img src="image/logo.png" alt="" class="logo"></a>
+        <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+</div>
+</div>
+    <div id="header home">
+        <div class="container">
+            <div class="header-text">
+                <div class="header-text-left">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span style="color: wheat;">Mehul</span><br> Kumar From Kolkata</h1>
+                <button class="btn btn2" id="head-btn"><a href="#projects" style="text-decoration:none;color:white">Explore My Work</a></button>
+                <button class="btn btn2" id="head-btn"><a href="./image/Mehul Kumar Resume.pdf" style="text-decoration:none;color:white" download="" > Download CV</a></button>
+                </div>
+                <div class="header-text-right">
+                    <img src="./image/fun.png" alt="fun" class="fun">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/myimage.jpg" alt="myimage" class="myimage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Mehul Kumar. I am from Bihar but I am currently living in Kolkata.
+                        I am doing my Bachelors in Technology from Techno Main Salt Lake and my specialisation is Computer Science & Engineering. My hobbies is to wandering around different places in my free time.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    </div>
+                    <div class="tab-contents active-contents" id="education">
+                        <ul>
+                            <li><span>2021-25</span><br>Techno Main Salt Lake, Kolkata</li>
+                            <li><span>2018-20</span><br>Fathehpur Sanda College, Arwal</li>
+                            <li><span>2017-28</span><br>Assembly of God School of Education, Arwal</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Competitive Coding</span><br>• Solve 300+ problems in LeetCode<br>• Solve 100+ problems in CodingNinjas<br>• 2⭐ in CodeChef</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>full Development</span><br>Web App Development</li>
+                            <li><span>Competitive Coding</span><br>Solve DSA problems</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------------MY SERVICES-------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>As a beginner in web design, I create simple and clean websites. My designs focus on easy navigation and clear information. I'm learning to use colors, fonts, and layouts effectively. Each project helps me improve, and I enjoy making websites that people find useful and engaging.</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Competitive Coding</h2>
+                    <p> In competitive coding, I enjoy solving challenging problems and improving my programming skills. I practice regularly, learning different algorithms and data structures. Each contest helps me think critically and code efficiently. I find joy in the process and aim to become better with each challenge.</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+               
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- --------------------------My Skills----------------------------- -->
+
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skill-list">
+            <div class="skill-content">
+                <img src="./image/html__.png" alt="html">
+                <p>HTML</p>
+            </div>
+            <div class="skill-content">
+                <img src="./image/css__.png" alt="css">
+                <p>CSS</p>
+            </div>
+            <div class="skill-content">
+                <img src="./image/javascript_.png" alt="javascript">
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="skill-content">
+                <img src="./image/c++.png" alt="c++">
+                <p>C++</p>
+            </div>
+            <div class="skill-content">
+                <img src="./image/github.png" alt="github">
+                <!-- <i class="fa-brands fa-github" style="color: #4078c0; font-size:160px;"></i> -->
+                <p>GITHUB</p>
+            </div>
+            <div class="skill-content">
+                <img src="./image/git.png" alt="git">
+                <p>Git</p>
+            </div>
+            <div class="skill-content">
+                <img src="./image/vs_code.png" alt="vs-code">
+                <p>VS Code</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- ---------------------My Projects------------------------- -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="./image/image.png" alt="project1" class="project-image">
+                    <div class="layer">
+                        <h3>Notes App</h3>
+                        <p>A notes app where users can add new notes as well as delete it.It's designed to make organizing your thoughts and tasks simple and efficient.</p>
+                        <a href="https://mehulkr9.github.io/notes_app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./image/image2.png" alt="project2" class="project-image">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>A Tic Tac Toe website offers a simple, user-friendly interface for two players to enjoy the classic game. Take turns marking Xs and Os on a 3x3 grid, aiming to get three in a row.</p>
+                        <a href="https://mehulkr9.github.io/tic-tac-toe/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./image/image3.png" alt="project3"class="project-image">
+                    <div class="layer">
+                        <h3>Text to Speech Converter</h3>
+                        <p>A text-to-speech website allows you to type any words, and it instantly converts them into spoken audio. You can choose from a variety of languages and personalize the speech output according to your preferences.</p>
+                        <a href="https://mehulkr9.github.io/text-to-speech/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./image/image4.png" alt="project4"class="project-image">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>A calculator website performs basic arithmetic functions like addition, subtraction, multiplication, and division. Users can choose between dark mode and light mode, providing options for different lighting preferences.</p>
+                        <a href="https://mehulkr9.github.io/calculator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------contact----------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:@mehulku2003@gmail.com"><i class="fa-solid fa-envelope"></i>mehulku2003@gmail.com</a></p>
+                    <p><a href="tel:7645852972"><i class="fa-solid fa-phone"></i>7645852972</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mehul-kumar-690855253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/mehulkr9" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/mehulkumar9/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100016559115205" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="image/Mehul Kumar Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="submit-message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Mehul Kumar.</p>
+        </div>
+    </div>
+
+            <script src="./app.js"></script>
+</body>
+</html>
